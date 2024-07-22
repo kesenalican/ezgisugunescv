@@ -1,0 +1,10 @@
+@import '/styles/globals';
+
+.map {
+    iframe {
+        border-radius: $radius_large;
+        border: 1px solid $secondary_light;
+        height: 70vh;
+        // box-shadow: $shadow_div_hover;
+    }
+}

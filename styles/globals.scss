@@ -1,0 +1,171 @@
+/* ------------------------------ Fonts import ------------------------------ */
+@font-face {
+    font-family: 'Lora';
+    src: url(../public/fonts/Lora-Italic.otf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../public/fonts/OpenSans-Light.ttf);
+}
+
+/* ------------------------------ Variables ------------------------------ */
+$primary: #C05358;
+$primary_faded: #DFA9AC;
+$secondary: #1F487E;
+$secondary_light: #86ADE2;
+$off_white: #F6F9FD;
+$white: #FFFFFF;
+
+$header: #333333;
+$text: rgba(35, 34, 50, 0.8);
+$text_faded: rgba(35, 34, 50, 0.6);
+$text_hover: rgba(35, 34, 50, 0.8);
+
+$border_25: rgba(35, 34, 50, 0.25);
+$border_50: rgba(35, 34, 50, 0.5);
+
+$line_50: rgba(35, 34, 50, 0.5);
+$line_60: rgba(35, 34, 50, 0.6);
+
+// ---------- Fonts ----------
+$header_font: 'Lora',
+serif;
+$text_font: 'Open Sans',
+sans-serif;
+
+// ---------- Font sizes ----------
+$links: clamp(0.8rem, 0.18vw + 0.76rem, 0.92rem);
+$paragraph: clamp(1rem, 0.33vw + 0.93rem, 1.22rem);
+$header_4: clamp(1.25rem, 0.57vw + 1.12rem, 1.63rem);
+$header_3: clamp(1.56rem, 0.91vw + 1.36rem, 2.17rem);
+$header_2: clamp(1.95rem, 1.41vw + 1.64rem, 2.89rem);
+$header_1: clamp(2.44rem, 2.13vw + 1.97rem, 3.86rem);
+
+// ---------- Margins and paddings ----------
+$xsmall: clamp(0.50rem, calc(0.39rem + 0.55vw), 0.94rem);
+$small: clamp(0.63rem, calc(0.47rem + 0.78vw), 1.25rem);
+$medium: clamp(1.25rem, calc(0.94rem + 1.56vw), 2.50rem);
+$large: clamp(1.88rem, calc(1.41rem + 2.34vw), 3.75rem);
+
+// ---------- Radius sizes ----------
+$radius_large: 12px;
+$radius_medium: 8px;
+$radius_small: 4px;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: $off_white;
+    color: $text;
+    font-family: $text_font;
+    font-size: $paragraph;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+// ------------------------------ Fonts ------------------------------
+h1,
+h2,
+h3,
+h4 {
+    color: $header;
+    font-family: $header_font;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: $header_1;
+}
+
+h2 {
+    font-size: $header_2;
+}
+
+h3 {
+    font-size: $header_3;
+}
+
+h4 {
+    font-size: $header_4;
+}
+
+p {
+    font-family: $text_font;
+    color: $text;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: $links;
+    font-family: $text_font;
+    color: $text;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: $text_hover;
+    }
+
+    &:focus {
+        color: $header;
+        opacity: 1;
+    }
+}
+
+// ------------------------------ Buttons ------------------------------
+button {
+    font-family: $text_font;
+    font-size: $links;
+    text-transform: uppercase;
+    border: none;
+    border-radius: $radius_small;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 5px 0px;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.light {
+    color: $primary;
+    background: $white;
+    border: 1px solid $primary;
+
+    &:hover {
+        color: $white;
+        background: $primary_faded;
+        border-color: $primary_faded;
+    }
+}
+
+.dark {
+    color: $white;
+    background: $primary_faded;
+
+    &:hover {
+        background: $primary;
+    }
+}
+
+// ------------------------------ Blur ------------------------------
+.blur {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(15px);
+}

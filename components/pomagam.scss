@@ -1,0 +1,106 @@
+@import '/styles/globals';
+
+#pomagam {
+    text-align: center;
+    background: $off_white;
+
+    .pomagam_1 {
+        grid-area: 2 / 3 / 3 / 7;
+    }
+
+    .pomagam_2 {
+        grid-area: 2 / 7 / 3 / 11;
+    }
+
+    .pomagam_3 {
+        grid-area: 3 / 3 / 4 / 7;
+    }
+
+    .pomagam_4 {
+        grid-area: 3 / 7 / 4 / 11;
+    }
+
+    .pomagam_5 {
+        grid-area: 4 / 3 / 5 / 7;
+    }
+
+    .pomagam_6 {
+        grid-area: 4 / 7 / 5 / 11;
+    }
+
+    .pomagam_div {
+        background: $white;
+        border-radius: $radius_medium;
+        border: 1px solid transparent;
+        padding: $medium;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 260px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .header_pomagam {
+            grid-area: 1 / 2 / 2 / 8;
+        }
+
+        .pomagam_1 {
+            grid-area: 2 / 1 / 3 / 5;
+        }
+
+        .pomagam_2 {
+            grid-area: 2 / 5 / 3 / 9;
+        }
+
+        .pomagam_3 {
+            grid-area: 3 / 1 / 4 / 5;
+        }
+
+        .pomagam_4 {
+            grid-area: 3 / 5 / 4 / 9;
+        }
+
+        .pomagam_5 {
+            grid-area: 4 / 1 / 5 / 5;
+        }
+
+        .pomagam_6 {
+            grid-area: 4 / 5 / 5 / 9;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .header_pomagam {
+            grid-area: 1 / 1 / 2 / 7;
+        }
+
+        .pomagam_1 {
+            grid-area: 2 / 1 / 3 / 7;
+        }
+
+        .pomagam_2 {
+            grid-area: 3 / 1 / 4 / 7;
+        }
+
+        .pomagam_3 {
+            grid-area: 4 / 1 / 5 / 7;
+        }
+
+        .pomagam_4 {
+            grid-area: 5 / 1 / 6 / 7;
+        }
+
+        .pomagam_5 {
+            grid-area: 6 / 1 / 7 / 7;
+        }
+
+        .pomagam_6 {
+            grid-area: 7 / 1 / 8 / 7;
+        }
+    }
+}

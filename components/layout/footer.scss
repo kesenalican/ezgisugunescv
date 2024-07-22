@@ -1,0 +1,92 @@
+@import '/styles/globals';
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: $white;
+
+    .column_1 {
+        height: 100%;
+        width: 50%;
+        background: $off_white;
+        padding: $large;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .column_2 {
+        height: 100%;
+        width: 50%;
+        gap: $large $small;
+        padding: $large;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: flex-end;
+
+        .footer_menu {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: $small;
+        }
+
+        .footer_bottom {
+            display: flex;
+            justify-content: space-between;
+            align-content: flex-end;
+            justify-items: flex-end;
+            align-items: flex-end;
+
+            .footer_bottom_left {
+                display: flex;
+            }
+
+            .icon {
+                margin-right: $small;
+                display: flex;
+                align-items: flex-end;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .logo {
+                display: flex;
+                align-items: flex-end;
+            }
+        }
+    }
+
+    @media screen and (min-width: 768) and (max-width: 1023px) {
+        .footer_bottom {
+            .column_1 {
+                width: 50%;
+            }
+
+            .column_2 {
+                width: 50%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+
+        .column_1 {
+            width: 100%;
+        }
+
+        .column_2 {
+            width: 100%;
+        }
+    }
+}
