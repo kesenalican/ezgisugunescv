@@ -37,11 +37,11 @@ const Nav = () => {
 
             <div className="menu_desktop">
                 <Link href="/o_mnie">Hakkımda</Link>
-                <Link href="komu_pomagam">Kime Yardımcı Oluyorum</Link>
+                <Link href="komu_pomagam">KİME Yardımcı Oluyorum</Link>
                 <Link href="jak_pomagam">Nasıl Yardımcı Oluyorum</Link>
-                <Link href="/cennik">Fiyat Listesi</Link>
+                <Link href="/cennik">FİYAT LİSTESİ</Link>
                 {/* <Link href="/blog">Blog</Link> */}
-                <Link href="/kontakt">İletişim</Link>
+                <Link href="/kontakt">İLETİŞİM</Link>
             </div>
 
             <div className="menu_button">                
@@ -63,12 +63,12 @@ const Nav = () => {
                     transition={{duration: 0.75, ease: 'easeOut', delay: 0.5}}
                     >
                     <Link className='link' href="/o_mnie"><h4>Hakkımda</h4></Link>
-                    <Link className='link' href="/komu_pomagam"><h4>Komu pomagam</h4></Link>
-                    <Link className='link' href="/jak_pomagam"><h4>Jak pomagam</h4></Link>
-                    <Link className='link' href="/cennik"><h4>Fiyat Listesi</h4></Link>
+                    <Link className='link' href="/komu_pomagam"><h4>KİME YARDIMCI OLUYORUM</h4></Link>
+                    <Link className='link' href="/jak_pomagam"><h4>NASIL YARDIMCI OLUYORUM</h4></Link>
+                    <Link className='link' href="/cennik"><h4>FİYAT LİSTESİ</h4></Link>
                     {/* <Link className='link' href="/blog"><h4>Blog</h4></Link> */}
                     <Link className='link button_small_screen' href="/umow_wizyte">
-                    <Link className='link' href="/kontakt"><h4>İletişim</h4></Link>
+                    <Link className='link' href="/kontakt"><h4>İLETİŞİM</h4></Link>
                         <button className='dark'>Randevu Alın</button>
                     </Link>
                 </m.div>

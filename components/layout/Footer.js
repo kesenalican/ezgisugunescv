@@ -24,11 +24,11 @@ const Footer = () => {
                 <li className='footer_menu'>
                     <Link href="/">Anasayfa</Link>
                     <Link href="/o_mnie">Hakkımda</Link>
-                    <Link href="komu_pomagam">Kimlere yardımcı oluyorum</Link>
+                    <Link href="komu_pomagam">Kİmlere yardımcı oluyorum</Link>
                     <Link href="jak_pomagam">Nasıl yardımcı oluyorum</Link>
-                    <Link href="/cennik">Fiyat Listesi</Link>
+                    <Link href="/cennik">FİYAT LİSTESİ</Link>
                     {/* <Link href="/blog">Blog</Link> */}
-                    <Link href="/kontakt">İletişim</Link>
+                    <Link href="/kontakt">İLETİŞİM</Link>
                 </li>
 
                 <div className="footer_bottom">

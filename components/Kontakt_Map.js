@@ -11,7 +11,7 @@ const Kontakt = () => {
     return (
         <section id='kontakt_map'>
 
-            <h1 className="heading">İletişim</h1>
+            <h1 className="heading">İLETİŞİM</h1>
             
             <div className="background blur">
                

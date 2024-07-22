@@ -4,48 +4,48 @@ const Pomagam = () => {
     return (
         <section id="pomagam" className='off_white'>
 
-            <h1 className="heading">Pomagam</h1>
+            <h1 className="heading">Yardım Ediyorum</h1>
 
             <div className="pomagam_div pomagam_1">
-                <h3>Radzić sobie z trudnościami natury emocjonalnej</h3>
+                <h3>Duygusal zorluklarla başa çıkın</h3>
                 <div className="line_pomagam"></div>
-                <p>Zaburzenia nastroju, lęk, niepokój, wycofanie, stres, smutek, złość i agresja</p>
-                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Dowiedź sie wiecej</button></Link>
+                <p>Duygudurum bozuklukları, korku, kaygı, geri çekilme, stres, üzüntü, öfke ve saldırganlık</p>
+                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Daha Fazla Bilgi</button></Link>
             </div>
 
             <div className="pomagam_div pomagam_2">
-                <h3>Radzić sobie z problemami natury egzystencjalnej</h3>
+                <h3>Varoluşsal sorunlarla uğraşmak                </h3>
                 <div className="line_pomagam"></div>
-                <p>Samotność, brak poczucia sensu i celu życia, myśli samobójcze</p>
-                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Dowiedź sie wiecej</button></Link>
+                <p>Yalnızlık, hayatta anlam ve amaç eksikliği, intihar düşünceleri</p>
+                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Daha Fazla Bilgi</button></Link>
             </div>
 
             <div className="pomagam_div pomagam_3">
-                <h3>Poprawić i/lub budować relacje z innymi</h3>
+                <h3>Başkalarıyla ilişkileri geliştirin ve/veya oluşturun</h3>
                 <div className="line_pomagam"></div>
-                <p>Trudności w nawiązywaniu i utrzymywaniu relacji przyjacielskich lub partnerskich</p>
-                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Dowiedź sie wiecej</button></Link>
+                <p>Arkadaşlık veya ortaklık kurma ve sürdürmede zorluklar</p>
+                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Daha Fazla Bilgi</button></Link>
             </div>
 
             <div className="pomagam_div pomagam_4">
-                <h3>Zrozumieć i zaakceptować siebie</h3>
+                <h3>Kendinizi anlayın ve kabul edin</h3>
                 <div className="line_pomagam"></div>
-                <p>Samoakceptacja, trudności związane z orientacją seksualną</p>
-                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Dowiedź sie wiecej</button></Link>
+                <p>Kendini kabul etme, cinsel yönelimle ilgili zorluklar</p>
+                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Daha Fazla Bilgi</button></Link>
             </div>
 
             <div className="pomagam_div pomagam_5">
-                <h3>Skuteczniej funkcjonować</h3>
+                <h3>Daha etkili işlev</h3>
                 <div className="line_pomagam"></div>
-                <p>Niskie poczucie własnej wartości, krytyczne postrzeganie siebie, nieśmiałość</p>
-                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Dowiedź sie wiecej</button></Link>
+                <p>Düşük benlik saygısı, eleştirel benlik algısı, utangaçlık</p>
+                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Daha Fazla Bilgi</button></Link>
             </div>
 
             <div className="pomagam_div pomagam_6">
-                <h3>Pokonać kryzysy osobiste</h3>
+                <h3>Kişisel krizlerin üstesinden gelin</h3>
                 <div className="line_pomagam"></div>
-                <p>Wyzwania, zmiany, ważne decyzje w życiu prywatnym lub zawodowym</p>
-                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Dowiedź sie wiecej</button></Link>
+                <p>Özel veya profesyonel hayattaki zorluklar, değişiklikler, önemli kararlar</p>
+                <Link href="/jak_pomagam" className='pomagam_button'><button className='dark'>Daha Fazla Bilgi</button></Link>
             </div>
         </section>
     )

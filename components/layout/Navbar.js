@@ -12,11 +12,11 @@ const Navbar = () => {
 
             <div className="menu">
                 <Link href="/o_mnie">Hakkımda</Link>
-                <Link href="komu_pomagam">Kime Yardımcı Oluyorum</Link>
+                <Link href="komu_pomagam">KİME Yardımcı Oluyorum</Link>
                 <Link href="jak_pomagam">Nasıl Yardımcı Oluyorum</Link>
-                <Link href="/cennik">Fiyat Listesi</Link>
+                <Link href="/cennik">FİYAT LİSTESİ</Link>
                 {/* <Link href="/blog">Blog</Link> */}
-                <Link href="/kontakt">İletişim</Link>
+                <Link href="/kontakt">İLETİŞİM</Link>
             </div>
 
             <div className="menu_button">                

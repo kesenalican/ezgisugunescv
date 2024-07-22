@@ -5,7 +5,7 @@ const Cennik_Element = () => {
     return (
         <section id='cennik_element'>
 
-            <h1 className="heading">Fiyat Listesi</h1>
+            <h1 className="heading">FİYAT LİSTESİ</h1>
 
             <div className="cennik_element_1">
                 <h3>Havale ile ödemeleri kabul ediyorum.</h3>
