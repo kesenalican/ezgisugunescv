@@ -39,7 +39,7 @@ const Nav = () => {
                 <Link href="/o_mnie">Hakkımda</Link>
                 <Link href="komu_pomagam">KİME Yardımcı Oluyorum</Link>
                 <Link href="jak_pomagam">Nasıl Yardımcı Oluyorum</Link>
-                <Link href="/cennik">FİYAT LİSTESİ</Link>
+                <Link href="/fiyat-listesi">FİYAT LİSTESİ</Link>
                 {/* <Link href="/blog">Blog</Link> */}
                 <Link href="/kontakt">İLETİŞİM</Link>
             </div>
@@ -65,12 +65,12 @@ const Nav = () => {
                     <Link className='link' href="/o_mnie"><h4>Hakkımda</h4></Link>
                     <Link className='link' href="/komu_pomagam"><h4>KİME YARDIMCI OLUYORUM</h4></Link>
                     <Link className='link' href="/jak_pomagam"><h4>NASIL YARDIMCI OLUYORUM</h4></Link>
-                    <Link className='link' href="/cennik"><h4>FİYAT LİSTESİ</h4></Link>
+                    <Link className='link' href="/fiyat-listesi"><h4>FİYAT LİSTESİ</h4></Link>
                     {/* <Link className='link' href="/blog"><h4>Blog</h4></Link> */}
-                    <Link className='link button_small_screen' href="/umow_wizyte">
+                    <Link className='link button_small_screen' href="/umow_wizyte"> </Link>
                     <Link className='link' href="/kontakt"><h4>İLETİŞİM</h4></Link>
-                        <button className='dark'>Randevu Alın</button>
-                    </Link>
+                        <button style={{width:"150px"}} className='dark'>Randevu Alın</button>
+                   
                 </m.div>
             </m.li>
         </section>

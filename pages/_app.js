@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { AnimatePresence } from 'framer-motion'
 
 import '../styles/globals.scss'
@@ -27,11 +27,9 @@ import Layout from '../components/layout/Layout'
 function MyApp({ Component, pageProps, router }) {  
     return (
         <Layout>
-            <div>
                 <AnimatePresence initial={true} mode={'wait'}>
                 <Component key={router.pathname} {...pageProps} />
                 </AnimatePresence>
-            </div>
         </Layout>
     )
 }
