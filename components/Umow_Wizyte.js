@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Link from 'next/link'
 
 const Umow_Wizyte = () => {
+    
 
     const dialNumber = () => {
         window.location.href = "tel:+48530023204"
@@ -36,7 +37,7 @@ const Umow_Wizyte = () => {
             </div>
 
             <div className="umow_wizyte_2">
-                <h3>email:</h3>
+                <h3>E-mail:</h3>
                 <p>  <Link href="mailto:ezgisuguness@gmail.com">ezgisuguness@gmail.com</Link></p><br />
                 <h3>Telefon:</h3>
                 <p onClick={dialNumber}>0541 913 86 14</p>

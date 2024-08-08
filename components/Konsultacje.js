@@ -12,7 +12,7 @@ const Konsultacje = () => {
                 <p>Psikoterapi süreci, psikolojik danışmanlıklarla başlar.
                      Genellikle dört oturum tanısal danışmanlık niteliğindedir.
                       Bu süre, problemi ve bunu yaşayan kişiyi detaylı bir şekilde anlamak için kullanılır. Bu temel üzerinde, daha ileri işbirliği şekli belirlenir.</p>
-                <Link href="/komu_pomagam" className='konsultacje_button'><button className='light'>Daha Fazla Bilgi</button>
+                <Link href="/yardimci" className='konsultacje_button'><button className='light'>Daha Fazla Bilgi</button>
                 </Link>
             </div>
 
@@ -22,7 +22,7 @@ const Konsultacje = () => {
                 </div>
                 <h3>Yetişkinler İçin Bireysel Psikoterapi</h3>
                 <p>Psikoterapi öncelikle hasta ve terapist arasında özgür bir konuşmayı içeren iki kişinin buluşmasıdır.</p>
-                <Link href="/komu_pomagam"><button className='light'>Daha Fazla Bilgi</button></Link>
+                <Link href="/yardimci"><button className='light'>Daha Fazla Bilgi</button></Link>
             </div>
         </section>
     )

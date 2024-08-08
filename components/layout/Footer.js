@@ -17,18 +17,18 @@ const Footer = () => {
             <div className="column_1">
                 <h3>Bana Ulaşın</h3>
                 <br />
-                <Link href="/umow_wizyte" className='div5'><button className='dark'>Randevu Alın</button></Link>
+                <Link href="/randevu_al" className='div5'><button className='dark'>Randevu Alın</button></Link>
             </div>
 
             <div className="column_2">
                 <li className='footer_menu'>
                     <Link href="/">Anasayfa</Link>
-                    <Link href="/o_mnie">Hakkımda</Link>
-                    <Link href="komu_pomagam">Kİmlere yardımcı oluyorum</Link>
-                    <Link href="jak_pomagam">Nasıl yardımcı oluyorum</Link>
-                    <Link href="/cennik">FİYAT LİSTESİ</Link>
+                    <Link href="/hakkimda">Hakkımda</Link>
+                    <Link href="yardimci">Kİmlere yardımcı oluyorum</Link>
+                    <Link href="nasil-yardimci-oluyorum">Nasıl yardımcı oluyorum</Link>
+                    <Link href="/fiyat-listesi">FİYAT LİSTESİ</Link>
                     {/* <Link href="/blog">Blog</Link> */}
-                    <Link href="/kontakt">İLETİŞİM</Link>
+                    <Link href="/iletisim">İLETİŞİM</Link>
                 </li>
 
                 <div className="footer_bottom">

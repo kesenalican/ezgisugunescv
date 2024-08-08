@@ -36,16 +36,16 @@ const Nav = () => {
            
 
             <div className="menu_desktop">
-                <Link href="/o_mnie">Hakkımda</Link>
-                <Link href="komu_pomagam">KİME Yardımcı Oluyorum</Link>
-                <Link href="jak_pomagam">Nasıl Yardımcı Oluyorum</Link>
+                <Link href="/hakkimda">Hakkımda</Link>
+                <Link href="yardimci">KİME Yardımcı Oluyorum</Link>
+                <Link href="nasil-yardimci-oluyorum">Nasıl Yardımcı Oluyorum</Link>
                 <Link href="/fiyat-listesi">FİYAT LİSTESİ</Link>
                 {/* <Link href="/blog">Blog</Link> */}
-                <Link href="/kontakt">İLETİŞİM</Link>
+                <Link href="/iletisim">İLETİŞİM</Link>
             </div>
 
             <div className="menu_button">                
-                <Link href="/umow_wizyte" className='button_small_screen'><button className='dark'>Randevu Alın</button></Link>
+                <Link href="/randevu_al" className='button_small_screen'><button className='dark'>Randevu Alın</button></Link>
             </div>
 
             <nav className={`menu ${isOpen ? 'open' : 'closed'}`} onClick={() => setIsOpen(!isOpen)} >
@@ -62,13 +62,13 @@ const Nav = () => {
                     variants={variants}
                     transition={{duration: 0.75, ease: 'easeOut', delay: 0.5}}
                     >
-                    <Link className='link' href="/o_mnie"><h4>Hakkımda</h4></Link>
-                    <Link className='link' href="/komu_pomagam"><h4>KİME YARDIMCI OLUYORUM</h4></Link>
-                    <Link className='link' href="/jak_pomagam"><h4>NASIL YARDIMCI OLUYORUM</h4></Link>
+                    <Link className='link' href="/hakkimda"><h4>Hakkımda</h4></Link>
+                    <Link className='link' href="/yardimci"><h4>KİME YARDIMCI OLUYORUM</h4></Link>
+                    <Link className='link' href="/nasil-yardimci-oluyorum"><h4>NASIL YARDIMCI OLUYORUM</h4></Link>
                     <Link className='link' href="/fiyat-listesi"><h4>FİYAT LİSTESİ</h4></Link>
                     {/* <Link className='link' href="/blog"><h4>Blog</h4></Link> */}
-                    <Link className='link button_small_screen' href="/umow_wizyte"> </Link>
-                    <Link className='link' href="/kontakt"><h4>İLETİŞİM</h4></Link>
+                    <Link className='link button_small_screen' href="/randevu_al"> </Link>
+                    <Link className='link' href="/iletisim"><h4>İLETİŞİM</h4></Link>
                         <button style={{width:"150px"}} className='dark'>Randevu Alın</button>
                    
                 </m.div>

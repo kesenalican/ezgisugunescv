@@ -27,7 +27,7 @@ const Hero = () => {
                         <p className='paragraph'>İşimde öncelikle diğer kişinin iyiliği bana rehberlik ediyor.
                              Hikayelerinizi ve deneyimlerinizi benimle paylaşırken kendinizi güvende
                               ve rahat hissetmenizi istiyorum. Gizliliği garanti ediyorum.</p>
-                        <Link href="/o_mnie" className='button'><button className='dark'>Daha fazla</button></Link>
+                        <Link href="/hakkimda" className='button'><button className='dark'>Daha fazla</button></Link>
                     </div>
                 </div>
             </section>

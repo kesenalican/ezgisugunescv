@@ -11,21 +11,21 @@ const Blog_Element = () => {
                     <div className="post_image_1"></div>
                     <h4>Lorem ipsum dolor sit amet consectetur.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deserunt quos mollitia alias ipsum quam nemo est quidem veritatis temporibus?</p>
-                    <Link href="/umow_wizyte" className='button'><button className='light'>Czytaj dalej...</button></Link>                
+                    <Link href="/randevu_al" className='button'><button className='light'>Czytaj dalej...</button></Link>                
                 </div>
                 
                 <div className="blog_element_2">
                     <div className="post_image_2"></div>
                     <h4>Lorem ipsum dolor sit amet consectetur.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deserunt quos mollitia alias ipsum quam nemo est quidem veritatis temporibus?</p>
-                    <Link href="/umow_wizyte" className='button'><button className='light'>Czytaj dalej...</button></Link>                
+                    <Link href="/randevu_al" className='button'><button className='light'>Czytaj dalej...</button></Link>                
                 </div>
                 
                 <div className="blog_element_3">
                     <div className="post_image_3"></div>
                     <h4>Lorem ipsum dolor sit amet consectetur.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deserunt quos mollitia alias ipsum quam nemo est quidem veritatis temporibus?</p>
-                    <Link href="/umow_wizyte" className='button'><button className='light'>Czytaj dalej...</button></Link>                
+                    <Link href="/randevu_al" className='button'><button className='light'>Czytaj dalej...</button></Link>                
                 </div>
             </div>
         </section>
